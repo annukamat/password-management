@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+header a.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav ul {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+nav ul li {
+  padding: 1px;
+  padding-right: 2rem;
+  list-style: none;
+  /* font: message-box; */
+  font-weight: bold;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+nav ul li a{
+  text-decoration: none;
+}
+
